@@ -29,11 +29,12 @@ Esportare quindi il diagramma in pnge caricarlo nella repo come visto in classe
 ### corsi
 
 - id
-- corso_laurea_id INIT
+- cordo_laure_id
 - nome VARCHAR (150)
 - descrizione TEXT
+- insegnante_id
 
-### studente
+### studenti
 
 - id
 - corso_laurea_id INIT
@@ -57,3 +58,9 @@ Esportare quindi il diagramma in pnge caricarlo nella repo come visto in classe
 - nome VARCHAR(150)
 - cognome VARCHAR(150)
 - email VARCHAR(150)
+
+### appello_esame
+
+- corsi_id INIT
+- data DATE
+- descrizione TEXT
