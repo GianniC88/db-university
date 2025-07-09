@@ -100,6 +100,13 @@ WHERE `level` LIKE '%magistrale%'
 
 ---7. Da quanti dipartimenti è composta l'università? (12)
 
+SELECT COUNT(*) AS `number_of_departments`
+FROM `departments`
+
+
+
+SELECT COUNT (DISTINCT `department_id`) AS `number_of_departments`
+FROM `degrees`;
 
 
 
